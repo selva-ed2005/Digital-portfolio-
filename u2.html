@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2d3436;
+            color: #fff;
+            text-align: center;
+            padding: 3rem 0;
+            position: relative;
+            border-bottom: 4px solid #0984e3;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            border: 3px solid #ffffff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: #34495e;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 1rem 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ecf0f1;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            padding: 0.5rem 1rem;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        .section-content {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin: 1.5rem auto;
+            border-radius: 8px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+            max-width: 1000px;
+        }
+
+        /* Updated Download Button Styles */
+        .download-button {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            border: 2px solid transparent;
+            box-shadow: 0 4px 6px rgba(230, 126, 34, 0.2);
+            animation: pulse 2s infinite;
+            text-decoration: none;
+        }
+
+        .download-button:hover {
+            background-color: #d35400;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(230, 126, 34, 0.3);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: #2d3436;
+            color: #ecf0f1;
+            margin-top: 3rem;
+        }
+
+        h2 {
+            color: #2d3436;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 0.5rem 0;
+            color: #555;
+        }
+
+        ul li::before {
+            content: "▹";
+            color: #3498db;
+            padding-right: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Screenshot 2025-03-26 222413.png" alt="Your Profile Picture" class="profile-picture">
+            <h1>M. Muthu Selvam</h1>
+            <p>Web Developer / Graphic Designer</p>
+        </div>
+    </header>
+
+     <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Certificates">Certificates</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>A results-driven Computer Engineer with expertise in Python, C++, and Data Structures, complemented by web development skills (HTML/CSS). Passionate about merging technical solutions with creative design, I bring additional proficiency in graphic design (Adobe Photoshop/Illustrator) and video editing (Premiere Pro). I thrive on building efficient systems while crafting visually engaging experiences, aiming to deliver solutions that balance functionality and aesthetic appeal.
+
+                Concise | Skill-focused | Professional Tone</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>BCA - Bachelor of Computer Application</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Data Structures</li>
+                <li>Java</li>
+                <li>Graphic Design</li>
+            </ul>
+        </div>
+    </section>
+
+   
+    <section id="Certificates">
+        <div class="section-content">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Web Development (ZohoTech's)</li>
+                <li>Python for Data Science (NPTEL)</li>
+                <li>Object Oriented Programming using Python (Infosys)</li>
+                <li>Basics of Python (Infosys)</li>
+                <li>Data Science & Analytics (HP Life)</li>
+                <li>TCS ION Career Edge - Young Professional (TCS ION)</li>
+            </ul>
+        </div>
+    </section>
+
+   
+    <section id="Contact">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <ul>
+                <li>Phone Number: +91-8678922362</li>
+                <li>Email: <a href="mailto:23h348@amjaincollege.edu.in">23h348@amjaincollege.edu.in</a></li>
+                <li>Address: NO:13, 1st Street, Thirumalai Nagar, Anakaputhur, Chennai-600070</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content">
+            <center>
+                <h2>Resume</h2>
+                <a href="resume .pdf" target="_blank" class="download-button">Download CV</a>
+            </center>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 M. Muthu Selvam</p>
+    </footer>
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
